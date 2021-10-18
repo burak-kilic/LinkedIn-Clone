@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkedIn</title>
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/068baf305d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <!-- Navbar başlangıcı -->
+    <nav class="navbar navbar-expand-lg navbar-light border-bottom pt-2 fixed-top">
+        <div class="container c">
+            <a class="navbar-brand" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"
+                    viewBox="0 0 34 34" class="global-nav__logo">
+                    <title>
+                        LinkedIn
+                    </title>
+                    <g>
+                        <path
+                            d="M34,2.5v29A2.5,2.5,0,0,1,31.5,34H2.5A2.5,2.5,0,0,1,0,31.5V2.5A2.5,2.5,0,0,1,2.5,0h29A2.5,2.5,0,0,1,34,2.5ZM10,13H5V29h5Zm.45-5.5A2.88,2.88,0,0,0,7.59,4.6H7.5a2.9,2.9,0,0,0,0,5.8h0a2.88,2.88,0,0,0,2.95-2.81ZM29,19.28c0-4.81-3.06-6.68-6.1-6.68a5.7,5.7,0,0,0-5.06,2.58H17.7V13H13V29h5V20.49a3.32,3.32,0,0,1,3-3.58h.19c1.59,0,2.77,1,2.77,3.52V29h5Z"
+                            fill="#0a66c2"></path>
+                    </g>
+                </svg></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <form class="d-flex">
+                    <input class="form-control ms-2 search" type="search" placeholder="&#xF002;  Search" aria-label="Search" size="30">
+                </form>
+                <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><i class="fas fa-home fa-lg"></i><small>Home</small></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-user-friends fa-lg"></i><small>My Network</small></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-briefcase fa-lg"></i><small>Jobs</small></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-comment-dots fa-lg"></i><small>Messaging</small></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-bell fa-lg"></i><small>Notifications</small></a>
+                    </li>
+                    <li class="nav-item dropdown me-2">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="assets/profil.jpeg" class="pp" alt=""><small>Me</small>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <div class="b-left"></div>
+                    <li class="nav-item dropdown ms-2" >
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fas fa-th fa-lg"></i><small>Work</small>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item mt-lg-4 ms-3">
+                        <a class="n-text" href="#">Try Premium for free</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar Sonu -->
+    <div class="container m-top c">
+        <div class="row">
+            <!-- Left bar -->
+            <div class="col-md-3">
+                <div class="left-bar">
+                    <img src="assets/banner.svg" class="banner" alt="">
+                    <img src="assets/profil.jpeg" class="l-img" alt=""><br>
+                    <a href="#" class="text-center text-dark l-text">Welcome, Burak!</a>
+                    <br>
+                    <div class="connections">
+                      
+                        <ul class="list-group">
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                <span class="c-text">Connections</span>
+                                <a href="#" class="c-link"><span class="c-num">18</span> </a>
+                            </li>
+                            <li class="list-group-item">
+                                <span class="c-text">Access exclusive tools & insights</span><br>
+                                <li-icon aria-hidden="true" type="premium-app-icon" class="feed-identity-module__premium-icon mr1 flex-shrink-zero"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" class="mercado-match" width="24" height="24" focusable="false">
+                                    <path d="M20 20a3.36 3.36 0 001-2.39V6.38A3.38 3.38 0 0017.62 3H6.38A3.36 3.36 0 004 4z" fill="#f8c77e"></path>
+                                    <path d="M4 4a3.36 3.36 0 00-1 2.38v11.24A3.38 3.38 0 006.38 21h11.24A3.36 3.36 0 0020 20z" fill="#e7a33e"></path>
+                                  </svg></li-icon>
+                                <a href="" class="c-link c-text2 text-dark"><strong>Try Premium for free</strong></a>  
+                            </li>
+                            <li class="list-group-item d-inline">
+                                <i class="fas fa-bookmark"></i> <span class="ms-1 c-text2"><strong>My items</strong></span>
+                            </li>
+                        </ul>
+                
+                    </div>
+                </div>
+                <div class="left-bar mt-1 sticky-top">
+                    <div class="accordion" id="accordionPanelsStayOpenExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                              Recent
+                            </button>
+                          </h2>
+                          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                            <div class="accordion-body">
+                                <ul style="list-style-type: none; padding: 0;">
+                                    <li><i class="fas fa-user-friends"></i> <a href="#" class="c-link text-dark"> Mühendislik Stajları</a></li>
+                                    <li><i class="fas fa-hashtag"></i> <a href="#" class="c-link text-dark"> network</a></li>
+                                    <li><i class="fas fa-hashtag"></i> <a href="#" class="c-link text-dark"> technology</a></li>
+                                    <li><i class="fas fa-hashtag"></i> <a href="#" class="c-link text-dark"> innovation</a></li>
+                                </ul>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                              Groups
+                            </button>
+                          </h2>
+                          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                            <div class="accordion-body">
+                                <ul style="list-style-type: none; padding: 0;">
+                                    <li><i class="fas fa-user-friends"></i> <a href="#" class="c-link text-dark"> Mühendislik Stajları</a></li>
+                                </ul>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                              Followed Hashtags
+                            </button>
+                          </h2>
+                          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                            <div class="accordion-body">
+                                <ul style="list-style-type: none; padding: 0;">
+                                    <li><i class="fas fa-hashtag"></i> <a href="#" class="c-link text-dark"> network</a></li>
+                                    <li><i class="fas fa-hashtag"></i> <a href="#" class="c-link text-dark"> technology</a></li>
+                                    <li><i class="fas fa-hashtag"></i> <a href="#" class="c-link text-dark"> innovation</a></li>
+                                </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <ul class="list-group">
+                        <li class="list-group-item d-flex justify-content-center">
+                            <a href="#" class="d-link">Discover more</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Mid -->
+            <div class="col-md-6">
+                <div class="post">
+                    <div class="card mb-3" style="max-width: 540px; border:none;">
+                        <div class="row g-0">
+                          <div class="col-md-4">
+                            <img src="assets/profil.jpeg" class="img-fluid rounded-circle post-img ms-3 mt-3" alt="...">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                                <input type="text" class="post-input" placeholder="    Start a post" size="50">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="container" >
+                        <div class="row">
+                          <div class="col-md-3 p-pad">
+                            <a href="#" class="p-link"><i class="far fa-image fa-lg fa-2x"></i> Photo</a>
+                          </div>
+                          <div class="col-md-3 p-pad">
+                            <a href="#" class="p-link"><i class="fab fa-youtube fa-lg fa-2x"></i> Video</a>
+                          </div>
+                          <div class="col-md-3 p-pad">
+                            <a href="#" class="p-link"><i class="fas fa-calendar-alt fa-lg fa-2x"></i> Event</a>
+                          </div>
+                          <div class="col-md-3 p-pad">
+                            <a href="#" class="p-link"><i class="fas fa-newspaper fa-lg fa-2x"></i> Write Article</a>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <!-- Paylaşımlar başlangıcı -->
+                <div class="card mt-1">
+                  <div class="card-header bg-white">
+                    <span>
+                    <img src="assets/davidjmalan.jpg" class="postphoto">
+                    <span class="posttext"><a href="https://www.linkedin.com/in/malan/" target="_blank" class="p-link"style="color: #212529;vertical-align:top;">David J. Malan</a></span>
+                    <span class="float-end">
+                      <i class="fas fa-ellipsis-h fa-md"></i>
+                    </span>
+                    <span class="" style="font-size: 13px; color: #474747; vertical-align: middle; margin-left:-6.25rem; margin-top:5px;">I teach CS50</span>
+                    <span class="" style="font-size: 13px; color: #474747; vertical-align:bottom;margin-left:-4.70rem; margin-top:3px;">25m <i class="fas fa-globe-americas fa-sm"></i></span>
+                  </div>
+                  <div>
+                    <p class="card-text ms-3" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-size: 15px; color: black;">
+                      They have done great things! Tebrikler Kodluyoruz!
+                    </p>
+                    <div>
+                    <img src="https://pbs.twimg.com/media/Em2_xBbXUAEVDx1.jpg" class="card-img-top mb-1" alt="..."/>
+                    </div>
+                    <span class=""><img src="https://static-exp1.licdn.com/sc/h/d310t2g24pvdy4pt1jkedo4yb" alt=""></span>
+                    <span class=""><img src="https://static-exp1.licdn.com/sc/h/5thsbmikm6a8uov24ygwd914f" alt=""></span>
+                    <span class="" style="font-size: 13px; color: #474747;"><img src="https://static-exp1.licdn.com/sc/h/7fx9nkd7mx8avdpqm5hqcbi97" alt="">  958</span>
+                    <div class="card-footer bg-white mt-1">
+                      <span><button class="btn btn-light p-btn"><i class="far fa-thumbs-up fa-md" style="font-size: 1.2rem"><span class="ml-2 mediatext"> Beğen</span></i></button></span>
+                      <span><button class="btn btn-light p-btn"><i class="far fa-comment fa-md" style="font-size: 1.2rem"><span class="ml-2 mediatext"> Yorum Yap</span></i></button></span>
+                      <span><button class="btn btn-light p-btn"><i class="fas fa-share fa-md" style="font-size: 1.2rem"><span class="ml-2 mediatext"> Paylaş</span></i></button></span>
+                      <span><button class="btn btn-light p-btn"><i class="fas fa-paper-plane fa-md" style="font-size: 1.2rem"><span class="ml-2 mediatext"> Gönder</span></i></button></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mt-1">
+                  <div class="card-header bg-white">
+                    <span>
+                    <img src="assets/ozanhilter.jpg" class="postphoto">
+                    <span class="posttext"><a href="https://www.linkedin.com/in/ozanhalis/" target="_blank" class="p-link"style="color: #212529;vertical-align:top;">Ozan Halis İLTER</a></span>
+                    <span class="float-end">
+                      <i class="fas fa-ellipsis-h fa-md"></i>
+                    </span>
+                    <span class="" style="font-size: 13px; color: #474747; vertical-align: middle; margin-left:-7rem; margin-top:5px;">Team Leader at YetGen | CodeCraft | Kablosuz Beyin | IEEE MEF...</span>
+                    <span class="" style="font-size: 13px; color: #474747; vertical-align:bottom;margin-left:-23rem; margin-top:3px;">1h  <i class="fas fa-globe-americas fa-sm"></i></span>
+                  </div>
+                  <div>
+                    <p class="card-text ms-3" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-size: 15px; color: black;">
+                      Erhan Erkut hocamız ile birlikte YetGen'de harika şeyler yapmak için geliyoruz!
+                    </p>
+                    <div>
+                    <img src="https://miro.medium.com/max/1080/1*gdDWFSvHDt57DS2zsh_0Bg.png" class="card-img-top mb-1" alt="..."/>
+                    </div>
+                    <span class=""><img src="https://static-exp1.licdn.com/sc/h/d310t2g24pvdy4pt1jkedo4yb" alt=""></span>
+                    <span class=""><img src="https://static-exp1.licdn.com/sc/h/5thsbmikm6a8uov24ygwd914f" alt=""></span>
+                    <span class="" style="font-size: 13px; color: #474747;"><img src="https://static-exp1.licdn.com/sc/h/7fx9nkd7mx8avdpqm5hqcbi97" alt="">  958</span>
+                    <div class="card-footer bg-white mt-1">
+                      <span><button class="btn btn-light p-btn"><i class="far fa-thumbs-up fa-md" style="font-size: 1.2rem"><span class="ml-2 mediatext"> Beğen</span></i></button></span>
+                      <span><button class="btn btn-light p-btn"><i class="far fa-comment fa-md" style="font-size: 1.2rem"><span class="ml-2 mediatext"> Yorum Yap</span></i></button></span>
+                      <span><button class="btn btn-light p-btn"><i class="fas fa-share fa-md" style="font-size: 1.2rem"><span class="ml-2 mediatext"> Paylaş</span></i></button></span>
+                      <span><button class="btn btn-light p-btn"><i class="fas fa-paper-plane fa-md" style="font-size: 1.2rem"><span class="ml-2 mediatext"> Gönder</span></i></button></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mt-1">
+                  <div class="card-header bg-white">
+                    <span>
+                    <img src="assets/davidjmalan.jpg" class="postphoto">
+                    <span class="posttext"><a href="https://www.linkedin.com/in/malan/" target="_blank" class="p-link"style="color: #212529;vertical-align:top;">David J. Malan</a></span>
+                    <span class="float-end">
+                      <i class="fas fa-ellipsis-h fa-md"></i>
+                    </span>
+                    <span class="" style="font-size: 13px; color: #474747; vertical-align: middle; margin-left:-6.25rem; margin-top:5px;">I teach CS50</span>
+                    <span class="" style="font-size: 13px; color: #474747; vertical-align:bottom;margin-left:-4.70rem; margin-top:3px;">25a  <i class="fas fa-globe-americas fa-sm"></i></span>
+                  </div>
+                  <div>
+                    <p class="card-text ms-3" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-size: 15px; color: black;">
+                      They have done great things! Tebrikler Kodluyoruz!
+                    </p>
+                    <div>
+                    <img src="https://pbs.twimg.com/media/Em2_xBbXUAEVDx1.jpg" class="card-img-top mb-1" alt="..."/>
+                    </div>
+                    <span class=""><img src="https://static-exp1.licdn.com/sc/h/d310t2g24pvdy4pt1jkedo4yb" alt=""></span>
+                    <span class=""><img src="https://static-exp1.licdn.com/sc/h/5thsbmikm6a8uov24ygwd914f" alt=""></span>
+                    <span class="" style="font-size: 13px; color: #474747;"><img src="https://static-exp1.licdn.com/sc/h/7fx9nkd7mx8avdpqm5hqcbi97" alt="">  958</span>
+                    <div class="card-footer bg-white mt-1">
+                      <span><button class="btn btn-light p-btn"><i class="far fa-thumbs-up fa-md" style="font-size: 1.2rem"><span class="ml-2 mediatext"> Beğen</span></i></button></span>
+                      <span><button class="btn btn-light p-btn"><i class="far fa-comment fa-md" style="font-size: 1.2rem"><span class="ml-2 mediatext"> Yorum Yap</span></i></button></span>
+                      <span><button class="btn btn-light p-btn"><i class="fas fa-share fa-md" style="font-size: 1.2rem"><span class="ml-2 mediatext"> Paylaş</span></i></button></span>
+                      <span><button class="btn btn-light p-btn"><i class="fas fa-paper-plane fa-md" style="font-size: 1.2rem"><span class="ml-2 mediatext"> Gönder</span></i></button></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mt-1">
+                  <div class="card-header bg-white">
+                    <span>
+                    <img src="assets/davidjmalan.jpg" class="postphoto">
+                    <span class="posttext"><a href="https://www.linkedin.com/in/malan/" target="_blank" class="p-link"style="color: #212529;vertical-align:top;">David J. Malan</a></span>
+                    <span class="float-end">
+                      <i class="fas fa-ellipsis-h fa-md"></i>
+                    </span>
+                    <span class="" style="font-size: 13px; color: #474747; vertical-align: middle; margin-left:-6.25rem; margin-top:5px;">I teach CS50</span>
+                    <span class="" style="font-size: 13px; color: #474747; vertical-align:bottom;margin-left:-4.70rem; margin-top:3px;">25a  <i class="fas fa-globe-americas fa-sm"></i></span>
+                  </div>
+                  <div>
+                    <p class="card-text ms-3" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-size: 15px; color: black;">
+                      They have done great things! Tebrikler Kodluyoruz!
+                    </p>
+                    <div>
+                    <img src="https://pbs.twimg.com/media/Em2_xBbXUAEVDx1.jpg" class="card-img-top mb-1" alt="..."/>
+                    </div>
+                    <span class=""><img src="https://static-exp1.licdn.com/sc/h/d310t2g24pvdy4pt1jkedo4yb" alt=""></span>
+                    <span class=""><img src="https://static-exp1.licdn.com/sc/h/5thsbmikm6a8uov24ygwd914f" alt=""></span>
+                    <span class="" style="font-size: 13px; color: #474747;"><img src="https://static-exp1.licdn.com/sc/h/7fx9nkd7mx8avdpqm5hqcbi97" alt="">  958</span>
+                    <div class="card-footer bg-white mt-1">
+                      <span><button class="btn btn-light p-btn"><i class="far fa-thumbs-up fa-md" style="font-size: 1.2rem"><span class="ml-2 mediatext"> Beğen</span></i></button></span>
+                      <span><button class="btn btn-light p-btn"><i class="far fa-comment fa-md" style="font-size: 1.2rem"><span class="ml-2 mediatext"> Yorum Yap</span></i></button></span>
+                      <span><button class="btn btn-light p-btn"><i class="fas fa-share fa-md" style="font-size: 1.2rem"><span class="ml-2 mediatext"> Paylaş</span></i></button></span>
+                      <span><button class="btn btn-light p-btn"><i class="fas fa-paper-plane fa-md" style="font-size: 1.2rem"><span class="ml-2 mediatext"> Gönder</span></i></button></span>
+                    </div>
+                  </div>
+                </div>
+                <!-- Paylaşımlar sonu -->
+            </div>
+            <!-- Right bar -->
+            <div class="col-md-3">
+              <div class="">
+                <div class="card" style="width: 19rem">
+                  <div class="card-header bg-white border-0">
+                    <span>Add to your feed</span><span><i class="fas fa-info-circle float-end"></i></span>
+                  </div>
+                  <ul class="list-group">
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        <span><img src="assets/codecraft.jpg" style="width: 50px; height: 50px; border-radius: 50%"/>
+                          <div class="header ms-1 d-inline" style="font-size: 14px">Codecraft</div></span>
+                          <span class="float-end me-3 mt-2">
+                          <button class="btn-outline-light text-dark" style="border-radius: 50px">
+                            <strong>+ Takip Et</strong>
+                          </button></span>
+                    </li>
+                    <li class="list-group-item">
+                      <span><a href="#" class="r-link">View all reccomendations <i class="fas fa-arrow-right"></i></a></span>
+                    </li>
+                  </ul>
+                </div>
+               
+                <div class="text-center mt-3 ms-3">
+                  <span><a href="#" class="link me-3">About</a></span>                  
+                  <span><a href="#" class="link me-3">Accessibility</a></span>
+                  <span><a href="#" class="link">Help Center</a ></span>
+                  <span><a href="#" class="link me-3">Privacy&Terms</a></span>
+                  <span><a href="#" class="link">Ad Choices</a></span>
+                  <span><a href="#" class="link ms-3">Advertising</a></span>
+                  <div class="text-center" style="margin-top: 10px">
+                    <img src="https://www.logo.wine/a/logo/LinkedIn/LinkedIn-Logo.wine.svg"width="90px"height="20px"/><span style="font-size: 12px; margin-left: -15px">Linkedin Corporation © 2021</span>
+                  </div>
+                </div>            
+              
+              </div>
+              <div class="btn-group fixed-bottom ms-auto" style="width:180px;height: 30px; margin-right: 100px; margin-bottom: 20px;">
+                <button type="button" class="btn d-flex">
+                  <img src="assets/profil.jpeg" class="pp" alt=""><span class="ms-2">Messaging</span>
+                  <span><a href="#"><i class="fas fa-ellipsis-h ms-5"></i></a></span>
+                  <span><a href="#"><i class="fas fa-edit ms-2"></i></a></span>
+                </button>
+                <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                  <span class="visually-hidden">Toggle Dropdown</span>
+                  <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                    99+
+                    <span class="visually-hidden">unread messages</span>
+                  </span>
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Separated link</a></li>
+                </ul>
+              </div>
+            </div>
+          
+          </div>
+      </div>
+  
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
