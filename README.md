@@ -1,4 +1,4 @@
-# LinkedIn-Clone
+# LinkedIn Clone
 
 #### [Live Preview](https://burak-kilic.github.io/LinkedIn-Clone/)
 
