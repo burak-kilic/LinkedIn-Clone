@@ -2,4 +2,4 @@
 
 #### [Live Preview](https://burak-kilic.github.io/LinkedIn-Clone/)
 
-####### Patika.dev ödevi için hazırlanmıştır.
+###### Patika.dev ödevi için hazırlanmıştır.
